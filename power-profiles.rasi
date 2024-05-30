@@ -13,8 +13,6 @@ configuration {
     sidebar-mode:     false;
 }
 
-@import "~/.config/rofi/config.rasi"
-/* Insert theme modifications after this */
 
 
 window {
@@ -120,3 +118,5 @@ textbox-prompt-colon {
     margin:     0px 0.3em 0em 0em;
     text-color: @normal-foreground;
 }
+@import "~/.config/rofi/config.rasi"
+/* Insert theme modifications after this */
